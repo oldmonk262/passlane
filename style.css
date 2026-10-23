@@ -32,3 +32,17 @@ ul { padding-left: 22px; }
 footer { margin-top: 48px; padding-top: 20px; border-top: 1px solid var(--stroke);
          color: var(--ink2); font-size: 14px; }
 footer a { margin-right: 16px; }
+.updated { color: var(--ink2); font-size: 14px; margin-top: 4px; }
+table.facts { width: 100%; border-collapse: collapse; background: var(--card);
+  border: 1px solid var(--stroke); border-radius: 18px; overflow: hidden; margin: 16px 0; font-size: 16px; }
+table.facts th, table.facts td { text-align: left; padding: 12px 16px; border-bottom: 1px solid var(--stroke); vertical-align: top; }
+table.facts tr:last-child th, table.facts tr:last-child td { border-bottom: none; }
+table.facts th { width: 38%; color: var(--ink2); font-weight: 600; }
+ol.steps { padding-left: 22px; }
+ol.steps li { margin-bottom: 10px; }
+.cta { background: var(--ink); color: var(--paper); border-radius: 20px; padding: 22px 22px 24px; margin: 36px 0; }
+.cta h2 { margin-top: 0; color: var(--paper); }
+.cta p { color: var(--paper); opacity: .85; margin: 6px 0 12px; }
+.cta .button { background: var(--accent); color: #fff; }
+.note { font-size: 14px; color: var(--ink2); }
+.guides a { display: block; margin: 6px 0; }
